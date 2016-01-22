@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head> 
+		<title> manan </title>
+		<!-- defines character encoding -->
+		<meta charset="Utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- compatible with mobiles -->
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="keywords" content="manan,website,ymca,ust">
+		<meta name="author" content="himani kansal">
+		<!-- latest compiled and minified css -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">  
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+		<!-- external css file -->
+		<link rel="stylesheet" type="text/css" href="mananstyle.css">
+		<!-- <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.smint.js"></script>
+		<script type="text/javascript">
+		$(function(){
+		$(document).ready(function(){
+		$('#topmenu').smint({
+    	'scrollSpeed' : 2000
+		});
+		});
+		</script>
+			-->
+			<!-- jquery library -->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>  
+		<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+		<!-- for scrolling when click on "quotes" and "contact us" -->
+		<script>
+		$(function(){
+		$(".top").click(function(e){
+		e.preventDefault();
+		$('html,body').scrollTo(this.hash,this.hash); 
+		});
+		});
+		</script> 
+	</head>
+	<body class="myClass">
+		<div class="container">
+			<div class="everything">
+			    <!-- for curtain image -->
+				<div class="curtain_wrapper">
+					<img src="img/Screenshot (152).png" class="curtain curtainleft" />
+					<img src="img/Screenshot (152).png" class="curtain curtainright" />
+					<div class="contentinside">			
+						<img src="img/images13.jpg" class="backimage" id="myimage" />
+							<div id="topmenu">
+								<span class="jumptoquotes"><a href="#topofquotes" class="top" >QUOTES</a></span>
+								<span class="jumptocontact"><a href="#footer" class="top">CONTACT US</a></span>
+							</div>
+							<!-- Manan logo -->
+							<div class="header">
+								<img src="img/index.png" width="400px" class="mananlogo"/> 
+							</div>
+							<!-- for the frame -->
+							<div class="frame">
+								<iframe src="curtain.html"  width="320%" height="550px;" name="about" style="border:none; border-color:#0066cc; opacity:; margin-top:170px;"></iframe>
+							</div>	
+							<div id="menu">
+								<span class="button1"><img src="img/smiley.jpeg" height="30px" />CLICKME</span>
+							</div>
+							<!-- side navigation bar -->
+							<div id="nav"> 
+								<br><br><br>
+								<a href="curtain.html" target="about" class="button"  onclick="onclickers('img/images13.jpg')";>HOME</a><br>
+								<a href="about.html" target="about" class="button"  onclick="onclickers('img/index.jpg')";>ABOUT</a><br>
+								<a href="jsecs.html" target="about" class="button"  onclick="onclickers('img/jsecsimgs.jpg')" >JSECS </a><br>
+								<a href="members.html" target="about" class="button" onclick="onclickers('img/images0.jpg')"> MEMBERS </a><br>
+								<a href="photos.html" target="about" class="button" onclick="onclickers('img/1651772.jpg')" >PHOTOS</a><br>
+								<a href="events.html" target="about" class="button" onclick="onclickers('img/photo.jpg')">EVENTS</a><br>
+								<a href="projects.html" target="about" class="button" onclick="onclickers('img/WCG_prog_page.jpg')">PROJECTS</a><br>
+							</div>
+							
+								
+					</div>
+				</div>
+				<div id="topofquotes" style="margin-top:0px;"></div>
+				<div class="content">
+					<div id="quotes" style="font-size:20px; font-family:cursive;  margin-top:70px;">
+					<br><br><br>	
+						<blockquote class="quote1">
+		"Most good programmers do programming not because they expect to get paid or get<br>
+		 adulation by the public, but because it is fun to program" &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<cite>~Linus Torvalds</cite>
+						</blockquote>
+						<pre class="quote2" style="font-size:15px;">
+			
+			
+				"It's not at all important to get it right the first time.It's vitally important
+				to get it right the last time."      				<cite> ~John Johnson</cite>
+						</pre>
+						<blockquote  class="quote3">
+					
+		"You are confined by the walls you build  yourself."  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <cite>        ~Chris Perry</cite> 
+						</blockquote>
+					</div>
+					<div class=photoframe>
+						<table>
+							<tr>
+								<td><img src="img/images3.jpg" class="cool"/> </td>
+								<td><img src="img/images12.jpg"  class="cool"/>  </td>
+								<td><img src="img/index2.jpg" class="cool" />  </td>
+							</tr>
+							<tr>
+								<td><img src="img/index6.png" class="cool" /> </td>
+								<td style="padding:25px;"><img src="img/images14.jpg" class="cool" /> </td>
+								<td><img src="img/images21.jpg" class="cool"/> </td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div id="footer">
+					<img src="img/images16.png" height="500px" width="100%" class="bottomimage" />
+					<div id="footercontent">
+						<div class="authorname">
+						&copy;2016- Manan (All Rights Reserved)<br>
+						A Website By <a href="creative_himani.html" target="_blank" id="authorhimani">HIMANI KANSAL</a>
+						</div>
+					</div>
+				</div>	
+			</div>
+			<!-- for toggling the side menu -->
+			<script>
+			 $(document).ready(function(){
+			 $(".button1").click(function(){
+			 $("#nav").slideToggle("slow");
+			 });
+			 });	 
+			</script>
+			<!-- to change the back image -->
+			<script>
+				function onclickers(source)
+				{change(source);
+				 also();
+				}
+			</script>
+			<!-- backimage change with fadein property -->
+			<script>
+				function change(source){
+				$(".backimage").fadeOut(100,function(){
+				$(".backimage").attr("src",source);
+				$(".backimage").fadeIn(1500);});}
+			</script>
+			<!-- frame appears with fadein -->
+			<script>
+				function also(){
+				$('.frame').css('display','none');
+				$('.frame').fadeIn(1500);
+				$('.button').click(function(){
+				event.preventDefault();
+				newlocation = this.href;
+				$('.frame').fadeOut(0,newpage);
+				});
+				function newpage(){
+				window.location=newlocation;
+				}
+				}
+			</script>
+			<!--<script>
+				$(document).ready(function(){
+				$(".button").click(function (){
+				$(".backimage").fadeOut(100,function(){
+				$(".backimage").attr("src","img/index.jpg");
+				$(".backimage").fadeIn(1500);});});});
+			</script>
+			<script>
+				$(document).ready(function(){
+				$(".button").click(function(){
+				$(".backimage").fadeOut(100,function(){
+				$(".backimage").attr("src","img/fairy_lights.jpg");
+				$(".backimage").fadeIn(1500);});});});
+			</script>-->
+			<!--<script>
+			var urlArray = ['img/index.jpg','img/fairy_lights.jpg','img/images13.jpg'];
+			var slideShowTimings = 2000;
+			var i=0
+			setInterval(function(){
+			var $img = $($('.backimage')[0]);
+			$img.attr('.src',urlArray[++i%urlArray.length]);
+			},slideShowTimings);
+			</script> --> 
+			<!--
+			<script> 
+				(function($){
+				 $(document).ready(function(){
+				 $('html,body').animate({'scrollTop':
+				 $('#footer).offset().top
+				},2000);});})(jquery);
+			</script>
+			-->
+			<!-- curtain opens -->
+			<script>
+			   $(document).ready(function(){
+				$('.curtain_wrapper').click(function (){
+				$(this).children('.description').animate({'left':-1*$(this).width()});
+				$(this).children('img.curtain').animate({width:20},{duration:2000});
+				$(this).children('.contentinside').fadeIn(2000);
+				});
+				});
+			</script> 
+	    </div>
+	</body>
+</html>

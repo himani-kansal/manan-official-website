@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>jsecs</title>
+		<style>
+			body
+			{
+			 background:transparent;
+			 opacity:1.0;
+			}
+			img
+				{ border-radius:50%;
+				}
+			.jsec1
+				{margin-left:300px;
+				 width:200px;
+				}
+			.jsec2
+				{ 
+				  margin-left:50px;
+				}
+			.jsec3
+				{ 
+				  width:200px;
+				}
+			#cf {
+				position:relative;
+				height:250px;
+				width:230px;
+				cursor:pointer;
+			  }
+			 #cf img.bottom,.top {
+				position:absolute;
+				left:0;
+				-webkit-transition: all 1s ease-in-out;
+				-moz-transition: all 1s ease-in-out;
+				-o-transition: all 1s ease-in-out;
+				transition: all 1s ease-in-out;
+			  }
+
+			 #cf .top {
+				-webkit-transform:scale(1,0);
+				-moz-transform:scale(1,0);
+				-o-transform:scale(1,0);
+				transform:scale(1,0);
+				filter: alpha(opacity=0);
+				opacity:0;
+
+			  }
+
+			 #cf:hover .top {
+				opacity:1;
+				-webkit-transform:scale(1,1);
+				-moz-transform:scale(1,1);
+				-o-transform:scale(1,1);
+				transform:scale(1,1);
+			  }
+
+			 #cf:hover img.bottom {
+				filter: alpha(opacity=0);
+				-webkit-transform:rotate(360deg) scale(0,0);
+				-moz-transform:rotate(360deg) scale(0,0);
+				-o-transform:rotate(360deg) scale(0,0);
+				transform:rotate(360deg) scale(0,0);
+			  }
+			  .name
+			  {font-size:20px; font-weight:bold;
+			  }
+			  .skills
+			  {color:;
+			  }
+		</style>
+	</head>
+	<body>
+		<div id="cf" style="width:400px; " >
+			<div class="top" style="margin-left:300px; margin-top:30px;">
+				<span class="name">SAMEER GUPTA</span><br>
+				(sameergupta1812@gmail.com)<br>
+				<span class="skills">
+					Knows C, C++<br /><br />
+					<a href="" target="_blank"><img src="img/face.png" width="30px" height="30px" /></a>&nbsp;
+					<a href="" target="_blank"><img src="img/twit.png" width="30px" height="30px" /></a>
+				</span>
+			</div>
+			<img src="img/sameer.jpg" class="jsec1 bottom" />
+		</div>
+		<br />
+		<div id="cf" style="float:left;">
+			<div class="top" style="margin-left:50px; margin-top:30px; ">
+				<span class="name">GARIMA DHINGRA</span><br>
+				(garima.dhingra6@gmail.com)<br>
+				<span class="skills">
+					Knows C, C++, JAVA, HTML, CSS<br /><br />
+					<a href="" target="_blank"><img src="img/face.png" width="30px" height="30px" /></a>&nbsp;
+					<a href="" target="_blank"><img src="img/twit.png" width="30px" height="30px" /></a>
+				</span>
+			</div>
+			<img src="img/images13.jpg" class="jsec2 bottom"/>
+		</div>
+		<div id="cf" style="float:right; margin-right:150px;">
+			<div class="top" style="margin-top:30px;">
+				<span class="name">SATWICK DASH</span><br>
+				(satwick1995@gmail.com)<br>
+				<span class="skills">
+					Knows C, C++, JAVASCRIPT<br /><br />
+					<a href="" target="_blank"><img src="img/face.png" width="30px" height="30px" /></a>&nbsp;
+					<a href="" target="_blank"><img src="img/twit.png" width="30px" height="30px" /></a>
+				</span>
+			</div>
+			<img src="img/satwick.jpg" class="jsec3 bottom" />
+		</div>
+	</body>
+</html>
+
