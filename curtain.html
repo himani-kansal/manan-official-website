@@ -13,53 +13,54 @@
 			<script>
 			  $(function(){
 				  $(".element").typed({
-					strings: ["WELCOME.","WELCOME","TO CODING CLUB OF YMCAUST","MANAN- A TECHNO SURGE.",],
-					typeSpeed: 100
+					strings: ["WELCOME.","TO CODING CLUB OF YMCAUST","MANAN- A TECHNO SURGE.",],
+					typeSpeed: 25
 				  });
 			  });
 			</script>
 		<style>
 			body
-				{background-color:black;
-				}
-			img
-				{margin-left:180px;
-				}
-			.typed-cursor
-				{color:white;
+				{background:transparent;
+				}				
+				.typed-cursor
+				{color:black;
 				 font-size:30px;
-				opacity: 1;
+				opacity: 0;
 				-webkit-animation: blink 0.7s infinite;
 				-moz-animation: blink 0.7s infinite;
 				animation: blink 0.7s infinite;
 				}
+				
 			@keyframes blink
 			{
-				0% { opacity:1; }
+				0% { opacity:0; }
 				50% { opacity:0; }
-				100% { opacity:1; }
+				100% { opacity:0; }
 			}
 			@-webkit-keyframes blink
 			{
-				0% { opacity:1; }
+				0% { opacity:0; }
 				50% { opacity:0; }
-				100% { opacity:1; }
+				100% { opacity:0; }
 			}
 			@-moz-keyframes blink{
-				0% { opacity:1; }
+				0% { opacity:0; }
 				50% { opacity:0; }
-				100% { opacity:1; }
+				100% { opacity:0; }
 			}
 			.element
-				{font-size:30px; 
-				 color:white;
+				{font-size:35px;
+				font-family:"MS serif";
+				font-weight:900;
+				font-style:italic;
+				 color:#003300;
 				 float:left;
-				 margin:auto;
+				 margin-top:100px;
+				 margin-left:150px;
 				}
 		</style>
 	</head>
 	<body>
 		<div class="element"></div>
-		<img src="img/dar.jpg" height="450px" width="700px" />
 	</body>
 </html>
