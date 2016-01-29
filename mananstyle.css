@@ -44,8 +44,8 @@ img.curtainright
 	}
 .top:hover
 	{
-		color:white;
-		font-size:23px;
+		color:blue;
+		font-size:21px;
 	}
 .top:visited
 	{
@@ -104,29 +104,31 @@ img.curtainright
 	 height:10px;
 	 text-decoration:none;
 	 color:#00FF99;
-	 margin-left:10px;	
+	 margin-left:25px;	
 	}
 .button
 	{
-     font-family:forte;
-	 font-size:30px;
+     font-family:arial;
+	 font-size:25px;
 	 opacity:1.0;
 	 height:450px;
 	 text-decoration:none;
 	 color:#00ffcc;
-	 margin-left:10px;
+	 margin-left:25px;
+	 line-height:170%;
 	}
+
 .button:hover
 	{
-	 font-size:35px;
-	 font-family:forte;
+	 font-size:30px;
+	 font-family:arial;
 	 opacity:1.0;
 	 color:#00bfff;
 	 text-decoration:none;
 	}
 .button1:hover
 	{
-		font-size:27px;
+		font-size:24px;
 		cursor:pointer;
 	}
 .button:focus
@@ -134,14 +136,14 @@ img.curtainright
 		text-decoration:none;
 		color:white;
 		border-radius:40%;
-		font-family:forte;
+		font-family:arial;
 		border:none;
 		outline:none;
 	}
 .frame
 	{
     float:right;
-	margin-right:700px;
+	margin-right:750px;
 	z-index:99;
 	}
 .content
